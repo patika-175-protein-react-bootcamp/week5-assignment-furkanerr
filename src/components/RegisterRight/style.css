@@ -1,0 +1,176 @@
+.RegisterTextContainer {
+  width: 114px;
+  height: 59px;
+  margin-bottom: 71px;
+}
+.RegisterRightContainer-dark input{
+  background: #2C2C2C;
+}
+.RegisterTextAndToggleContainer{
+    margin-top: 70px;
+}
+.RegisterText{
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 59px;
+    color: #3c3c3c;
+}
+.RegisterText-dark{
+    font-family: "Oxygen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 59px;
+    color: #FEFEFE;
+}
+.Toggle :first-child{
+    
+    position: absolute;
+    
+    right: 5.31%;
+    top: 1%;
+    bottom: 0%;
+    margin-top: 30px;
+
+    
+    
+}
+.label {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.15px;
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+.label-dark{
+color: #FEFEFE;
+font-family: "Oxygen";
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+letter-spacing: 0.15px;
+display: flex;
+margin-top: 28px;
+margin-bottom: 12px;
+}
+.form-middle label::after {
+  content: "*";
+  color: red;
+  
+}
+.Error{
+  font-family: 'Oxygen';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.15px;
+color: #EE6356;
+display: flex;
+position: absolute;
+z-index: 2;
+
+}
+
+.NameAndSurname {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.NameAndSurname input {
+  border: 2px solid #8e8e8e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 264px;
+  height: 56px;
+}
+input::placeholder {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  position: absolute;
+  left: 24px;
+  top: calc(50% - 20px / 2);
+  color: #8e8e8e;
+}
+.form-middle input {
+  border: 2px solid #8e8e8e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 560px;
+  height: 56px;
+}
+.rememberMe {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 28px;
+  margin-bottom: 24px;
+  gap: 8px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  color: #8e8e8e;
+}
+.rememberMe input {
+  border: 2px solid #8e8e8e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+}
+.input-dark{
+  border: 2px solid #8e8e8e;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  background-color: #2C2C2C;
+}
+button {
+  background: #444aff;
+  border: none;
+  border-radius: 4px;
+  width: 560px;
+  height: 56px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  margin-bottom: 15px;
+}
+.button-dark{
+  background: #FFBF5E;
+  border: none;
+  border-radius: 4px;
+  width: 560px;
+  height: 56px;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  color: #f0f0f0;
+}

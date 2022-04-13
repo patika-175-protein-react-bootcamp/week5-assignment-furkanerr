@@ -1,0 +1,32 @@
+.RegisterPageContainer{
+    
+    display: flex;
+  
+}
+.RegisterLeft{
+  
+    width: 47%;
+   
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+ .RegisterRight{
+     
+    width: 53%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.RegisterRight-dark{
+    background: #2C2C2C;
+    width: 53%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

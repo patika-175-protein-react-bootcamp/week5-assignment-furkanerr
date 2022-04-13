@@ -1,0 +1,99 @@
+.RegisterLeftContainer {
+  position: fixed;
+  background-color: #dadada;
+  
+  
+}
+.RegisterLeftContainer-dark{
+  background: #8C8C8C;
+  
+  position: fixed;
+}
+p {
+  text-align: left;
+  margin-left: 59px;
+}
+.HeaderYazilimPatikalari {
+  width: 641px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  margin-bottom: 29px;
+}
+.HeaderYazilimPatikalari-dark {
+  width: 641px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-bottom: 29px;
+}
+.HeaderYazilimPatikalari div {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 74px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+  color: #444aff;
+}
+.HeaderYazilimPatikalari-dark div{
+  color: #FEFEFE;
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 59px;
+  line-height: 74px;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+.PatikaDevIcon {
+  display: flex;
+  align-items: normal;
+  justify-content: flex-start;
+  margin-left: 59px;
+  margin-bottom: 36px;
+  margin-top: 42px;
+}
+.IconContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  flex-direction: column;
+  margin-top: 52px;
+}
+.text {
+  position: relative;
+  width: 85%;
+
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+
+  color: #444aff;
+}
+.text-dark{
+  color:#FEFEFE;
+  position: relative;
+  width: 85%;
+
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 35px;
+}
+.ShortLine{
+  margin-right: 42px;
+}
+
+
+.LongLine{
+  margin-right: 110px;
+}
