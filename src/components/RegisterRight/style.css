@@ -175,6 +175,10 @@ button {
   color: #f0f0f0;
   margin-bottom: 15px;
   cursor: pointer;
+  transition: all .3s;
+}
+button:hover{
+  transform: scale(1.05);
 }
 .button-dark{
   background: #FFBF5E;
