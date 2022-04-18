@@ -29,6 +29,7 @@ function RegisterRight() {
       password: "",
       passwordConfirm: "",
       userName: "",
+      checkbox: false,
     },
     validationSchema: RegisterValidation,
     onSubmit: (values) => {
@@ -36,7 +37,7 @@ function RegisterRight() {
     },
   });
 
-
+console.log(formik.errors)
 
   return (
     <div className={clsx("RegisterRightContainer",{'RegisterRightContainer-dark':theme==='dark'})}>
@@ -142,8 +143,14 @@ function RegisterRight() {
             </div>
           </div>
           <div className="rememberMe">
-            <input type="checkbox" className={clsx('',{'input-dark':theme==='dark'})} />
+          
+            <input type="checkbox" name={'checkbox'} value={formik.values.checkbox} onChange={formik.handleChange} className={clsx('',{'input-dark':theme==='dark'})} />
             <span>Sözleşmeyi kabul ediyorum</span>
+            {formik.errors.checkbox &&
+              formik.touched.checkbox ? (
+                
+                <div className="CheckboxError">{formik.errors.checkbox}</div>
+              ) : null}
           </div>
           <div className="RegisterButton">
             <button className={clsx('',{'button-dark':theme==='dark'})} type="submit">Kayıt Ol</button>

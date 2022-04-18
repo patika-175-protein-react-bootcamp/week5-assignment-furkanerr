@@ -23,7 +23,7 @@ const RegisterValidation = yup.object().shape({
     userName: yup
         .string()
         .required("Kullanıcı adı alanı zorunludur"),
- 
+    checkbox: yup.boolean().oneOf([true], 'Lütfen kabul ediniz.'),
 });
 
 export default RegisterValidation;

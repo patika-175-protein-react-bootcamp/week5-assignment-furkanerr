@@ -1,3 +1,7 @@
+input{
+  padding-left: 24px;
+}
+
 .RegisterTextContainer {
   width: 114px;
   height: 59px;
@@ -5,6 +9,7 @@
 }
 .RegisterRightContainer-dark input{
   background: #2C2C2C;
+  color:#FEFEFE;
 }
 .RegisterTextAndToggleContainer{
     margin-top: 70px;
@@ -24,6 +29,7 @@
     font-size: 47px;
     line-height: 59px;
     color: #FEFEFE;
+    
 }
 .Toggle :first-child{
     
@@ -78,6 +84,16 @@ position: absolute;
 z-index: 2;
 
 }
+.CheckboxError{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #EE6356;
+  display: flex;
+}
 
 .NameAndSurname {
   display: flex;
@@ -110,6 +126,7 @@ input::placeholder {
   border-radius: 4px;
   width: 560px;
   height: 56px;
+ 
 }
 .rememberMe {
   display: flex;
@@ -157,6 +174,7 @@ button {
   text-transform: uppercase;
   color: #f0f0f0;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 .button-dark{
   background: #FFBF5E;
@@ -173,4 +191,6 @@ button {
   letter-spacing: 1.25px;
   text-transform: uppercase;
   color: #f0f0f0;
+  cursor: pointer;
 }
+
